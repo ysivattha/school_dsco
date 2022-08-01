@@ -49,9 +49,9 @@ if(isset($_SESSION['user_id'])) {
   <link rel="stylesheet" href="offline/buttons.dataTables.min.css">
 
   <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Chenla" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Khmer OS System" rel="stylesheet">
   <style type="text/css">
-      *{ font-family: 'Chenla',"Source Sans Pro", sans-serif; }
+      *{ font-family: 'Khmer OS System',"Khmer OS System", Khmer OS System; }
   </style>
   <style>
         .menu-item{

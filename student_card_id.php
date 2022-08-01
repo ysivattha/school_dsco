@@ -19,6 +19,9 @@ $phone  = $row['stu_phone'];
     <meta name="NameCard" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="card_id/idCard.css">
     <title>ID Card</title>
+    <style type="text/css">
+      *{ font-family: 'Khmer OS System',"Khmer OS System", Khmer OS System; }
+  </style>
 </head>
 <body>
     <div class="container">
