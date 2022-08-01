@@ -52,12 +52,23 @@
     background-color: #fff;
     /* background-color: black; */
 }
+
 .contain-box .logo{
     position: absolute;
     top: 5px;
     left: 50%;
+    width: 70px;
+    height: 100px;
     transform: translateX(-50%);
+    /* background-color: black; */
 }
+.contain-box .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:50% 100%;
+}
+
 .contain-box .style{
     position: absolute;
     right: 0;
