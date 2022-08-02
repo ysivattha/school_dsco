@@ -39,6 +39,7 @@ $phone  = $row['stu_phone'];
                         </div>
                         <div class="box-input">
                             <label for="">NAME_KH:</label>
+                            <input class="font-family">, type="text">
                         <input type="text" value="<?php echo $name_kh ?>" >
                         </div>
                         <div class="box-input">
