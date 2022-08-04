@@ -20,7 +20,7 @@ $phone  = $row['stu_phone'];
     <link rel="stylesheet" href="card_id/idCard.css">
     <title>ID Card</title>
     <style type="text/css">
-      *{ font-family: 'Khmer OS System',"Khmer OS System", Khmer OS System; }
+      *{ font-family: 'Chenla',"Source Sans Pro", sans-serif; }
   </style>
 </head>
 <body>
