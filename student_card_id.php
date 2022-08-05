@@ -5,7 +5,7 @@ $sql = "SELECT * FROM student WHERE stu_id = $id";
 $result = mysqli_query($connect, $sql);
 $row = mysqli_fetch_array($result);
 
-$card_id  = $row['stu_id'];
+$stu_card_id  = $row['stu_card_id'];
 $name_kh  = $row['stu_name_kh'];
 $name_en  = $row['stu_name_en'];
 $sex  = $row['stu_sex'];
@@ -151,7 +151,7 @@ $phone  = $row['stu_phone'];
                     <form action="" method="post">
                         <div class="box-input">
                             <label for="">Card ID:</label>
-                            <input type="text" value="<?php echo $card_id ?>">
+                            <input type="text" value="<?php echo $stu_card_id ?>">
                         </div>
                         <div class="box-input">
                             <label for="">NAME_KH:</label>
